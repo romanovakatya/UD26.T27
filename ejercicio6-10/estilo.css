@@ -1,0 +1,28 @@
+body {
+    font-family: 'Lucida Sans Unicode';
+}
+h1{
+    text-align: center;
+}
+.color1 {
+    color: rgb(14, 177, 87);
+}
+
+.color2 {
+    color: peru;
+}
+
+h2 {    
+    color: rgb(8, 238, 111);
+    border-bottom: 1px solid rgb(184, 185, 187);
+}
+
+h3 {
+    color: peru;
+}
+
+section {
+    text-align: justify;
+    border: 1px solid rgb(184, 185, 187);
+    padding: 0 15px;
+}
