@@ -3,19 +3,21 @@ body {
     width: 900px;
     margin: 0 auto;
 }
-h1{
+
+h1 {
     text-align: center;
 }
+
 .color1 {
-    color: rgb(14, 177, 87);
+    color: rgb(0, 153, 0);
 }
 
 .color2 {
     color: peru;
 }
 
-h2 {    
-    color: rgb(8, 238, 111);
+h2 {
+    color: rgb(51, 204, 51);
     border-bottom: 1px solid rgb(184, 185, 187);
 }
 
@@ -30,10 +32,33 @@ section {
     border: 1px solid rgb(184, 185, 187);
     padding: 0 15px;
     margin-right: 10px;
-
 }
 
-  aside {
+aside {
     float: left;
     width: 18%;
-  }
+}
+
+.button {
+    background-color: rgb(204, 255, 153);
+    border: 1px solid rgb(184, 185, 187);
+    color: white;
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    text-align: center;
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+}
+
+li:hover {
+    background-color: rgb(212, 192, 172);
+}
+
