@@ -6,6 +6,7 @@ body {
 
 h1 {
     text-align: center;
+    margin-top: 0;
 }
 
 .color1 {
@@ -32,6 +33,7 @@ section {
     border: 1px solid rgb(184, 185, 187);
     padding: 0 15px;
     margin-right: 10px;
+    background: linear-gradient(#f2f2f2, white, white, #f2f2f2);
 }
 
 aside {
@@ -40,7 +42,7 @@ aside {
 }
 
 .button {
-    background-color: rgb(204, 255, 153);
+    background: linear-gradient(to bottom, white 15%, rgb(204, 255, 153));
     border: 1px solid rgb(184, 185, 187);
     color: white;
     padding: 8px 10px;
@@ -49,7 +51,7 @@ aside {
     list-style: none;
 }
 
-a {
+li a {
     outline: none;
     text-decoration: none;
 }
@@ -59,6 +61,30 @@ a:visited {
 }
 
 li:hover {
-    background-color: rgb(212, 192, 172);
+    background: linear-gradient(to bottom, white 15%, rgb(212, 192, 172));
 }
 
+header {
+    height: 175px;
+    width: 850px;
+    margin: 0 auto;
+    background: url('./img/panoramica.jpg');
+}
+
+footer {
+    margin-right: 9%;
+    float: right;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: rgb(184, 185, 187);
+}
+
+a {
+    outline: rgb(184, 185, 187);
+}
+
+#borderBody {
+    margin: 15px;
+    border: 1px solid rgb(184, 185, 187);
+    border-radius: 15px;
+}
