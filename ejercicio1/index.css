@@ -1,0 +1,9 @@
+body  {
+    background-color: rgb(203, 222, 247);
+}
+h1, h2 {
+ font-family: 'Courier New', Courier, monospace;
+}
+li{
+    margin-bottom: 0.9rem;
+}
